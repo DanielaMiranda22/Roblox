@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/brand.png" />
+    <title>Roblox Course</title>
+
+</head>
+<body>
+<!-- Barra de navegación -->
+ <header class="container-fluid align-items-center">
+    <nav class="navbar fixed-top navbar-expand-lg p-1" data-bs-theme="dark" id="menu" style="background-color: #602C6F;">
+        <div class="container-fluid">
+          <a id="brand" class="navbar-brand" href="#inicio"><img src="./images/brand.png" alt="brand" width="35" height="35" class="d-inline-block align-text-top"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">INICIO
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lp">INTRO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video">VIDEO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video">JUEGOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTÁCTANOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ </header>
+
+ <!-- Portada -->
+
+ <main>
+  <div id="inicio" class="hero">
+    <div class="container">
+      <h1>Programa con Roblox Studio</h1>
+      
+      <p></p>
+    </div>
+  </div>
+
+
+
+      <!-- Intro -->
+      <section class="w-75 mx-auto text-center pt-5" id="lp">
+        <h1 class="p-3 fs-3 border-top border-4"><span style="color: #21C3D8">Roblox Studio </span> es un Entorno de Desarrollo Integrado  <span style="color:#37A926">(IDE) </span>que te permite crear <span style="color:#F13652">juegos </span> <br> que se ejecutan en la página Oficial de Roblox.</h1>
+        <p class="fs-4">Conoce la interfaz del  <span style="color:#F8B700">IDE </span>  Roblox Studio:</p>
+        <div>
+          <img class="img-fluid img-thumbnail" src="images/IDE.png" alt="">
+        </div>
+        <hr>
+        <div>
+          <img class="img-fluid img-thumbnail" src="images/IDE2.png" alt="">
+        </div>
+      </section>
+
+      <!-- Información -->
+      <section class="container">
+        <div class="main row text-center">
+
+          <div class="info col-md-4 col-sm-12" id="origen">
+            <img src="./images/1.png" alt="Origen">
+            <h5>Todo en uno</h5>
+            <div class="content" id="contenido1">
+            <p>Como entorno de desarrollo integrado todo en uno , este programa libera el poder de la creatividad al permitir a los usuarios construir prácticamente cualquier cosa que puedan imaginar.</p>
+            </div>
+            <div class="div-info">
+            <button class="btn-info" onclick="muestra_oculta('contenido1');" form="contenido1"> + </button>
+            </div>
+        </div>
+
+        <div class="info col-md-4 col-sm-12" id="arte">
+            <img src="./images/2.png" alt="Arte">
+            <h5>Gana Robux</h5>
+            <div class="content" id="contenido2">
+            <p>Puedes ganar Robux (la moneda oficial de Roblox) si eres creador de juegos y ofreces compras dentro de la aplicación para tus juegos Roblox diseñados a medida. </p>
+            </div>
+            <div class="div-info">
+            <button class="btn-info" onclick="muestra_oculta('contenido2');" form="contenido2"> + </button>
+            </div>
+        </div>
+
+        <div class="info col-md-4 col-sm-12" id="conocenos">
+            <img src="./images/3.png" alt="Conocenos">
+            <h5>Potencia tu creatividad</h5>
+            <div class="content" id="contenido3">
+            <p>Lo mejor de Roblox en su conjunto es que fomenta la creatividad y te permite compartir públicamente tus creaciones con otros jugadores.</p>
+            </div>
+            <div class="div-info">
+            <button class="btn-info" onclick="muestra_oculta('contenido3');"form="contenido3"> + </button>
+            </div>
+        </div>
+
+        </div>
+       
+      </section>
+
+      <!-- Editor de código -->
+      <section class="w-75 mx-auto text-center pt-5" id="lp">
+        <h1 class="p-3 fs-3 border-top border-4"> Descarga Roblox Studio </span><a href="https://create.roblox.com/landing">aquí</a></h1>
+        <p class="fs-6">Disponible en Windows y Mac, es la herramienta de creación esencial para experiencias Roblox.</p>
+        <div>
+          <img class="img-fluid" src="images/rs.png" alt="" style="width: 100px; height: 100px;">
+        </div>
+        
+      </section>
+
+            <!-- Video conócenos -->
+
+            <section class="w-75 mx-auto text-center pt-5" id="video">
+              <p class="fs-4"><span style="color:#37A926">Descubre </span> todo lo que podrás crear en nuestro</p>
+        <div>
+          <img class="img-fluid" src="images/EC.png" alt="" style="width: 200px; height: 200px;">
+        </div>
+              
+            </section>
+      
+            <section class="video">
+              <div class="pt-5 ratio ratio-16x9">
+                  <iframe src="images/EasterCamp.mp4"frameborder="0"></iframe>
+              </div>
+            </section>
+
+      <section class="container">
+        <div class="main row text-center">
+        <p class="fs-4"><span style="color:#F8B700">Prueba </span> las creaciones de nuestros alumnos destacados:</p>
+
+          <div class="game col-md-4 col-sm-12">
+            <img src="./images/cc.png" alt="">
+            <h5><a href="https://www.roblox.com/games/13175082671/Camino-correcto">Camino correcto</a></h5>
+        </div>
+
+        <div class="game col-md-4 col-sm-12">
+            <img src="./images/dia.png" alt="">
+            <h5><a href="https://www.roblox.com/games/13977374172/Desactiva-a-IA-1">Desactiva la IA</a></h5>
+        </div>
+
+        <div class="game col-md-4 col-sm-12" >
+            <img src="./images/tot.png" alt="">
+            <h5><a href="https://www.roblox.com/games/15300756766/Trick-or-Treat">Trick or treat</a></h5>
+        </div>
+
+        </div>
+       
+      </section>
+
+      <br>
+      <section class="w-75 mx-auto text-center pt-5" id="contact">
+        <div>
+            <img src="./images/brand.png" style="width: 100px; height: 100px;">
+            <h3>Contáctanos</h3>
+            <p>En caso de que tengas alguna duda. <br> ¡Escríbenos! </p>
+            <br>
+      <section class="container-fluid">
+        <div></div>
+      </section>
+    </section>
+    <section id="footer-section" class="border-bottom border-secondary border-2">
+        <div id="bg-footer">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#37A926" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,256C672,245,768,203,864,170.7C960,139,1056,117,1152,128C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+
+    </section>
+
+ </main>
+<!-- Pie de página -->
+ <footer class="w-100">
+    <section class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+        <p class="fw-bold px-3 pt-3">&copy; 2024 Creado por el equipo de SMEs de Byju's Learning LATAM</p>
+ </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
